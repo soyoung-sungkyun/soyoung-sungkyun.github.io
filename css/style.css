@@ -1724,3 +1724,19 @@ h1, h2, h3, h4, h5, h6 {
   top: 10px;
   right: 15px;
 }
+
+.kakao-pay-button {
+  background-color: #fae100;
+  border-radius: 4px 4px 4px 4px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+.cursor-pointer {
+  cursor: pointer!important;
+}
+.content-center {
+  align-content: center;
+}
+.column {
+  flex-direction: column;
+}
