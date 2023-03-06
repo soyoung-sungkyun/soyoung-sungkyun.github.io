@@ -1,12 +1,17 @@
 @charset "utf-8";
 
 @font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-family: 'GowunDodum';
   font-weight: normal;
   font-style: normal;
+  src: url('https://cdn.jsdelivr.net/gh/webfontworld/yangheeryu/GowunDodum.eot');
+  src: url('https://cdn.jsdelivr.net/gh/webfontworld/yangheeryu/GowunDodum?#iefix') format('embedded-opentype'),
+  url('https://cdn.jsdelivr.net/gh/webfontworld/yangheeryu/GowunDodum.woff2') format('woff2'),
+  url('https://cdn.jsdelivr.net/gh/webfontworld/yangheeryu/GowunDodum.woff') format('woff'),
+  url('https://cdn.jsdelivr.net/gh/webfontworld/yangheeryu/GowunDodum.ttf') format("truetype");
+  font-display: swap;
 }
+
 /* =======================================================
 *
 * 	Template Style 
@@ -14,7 +19,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "ArnoPro Display", Arial, sans-serif;
+  font-family: "GowunDodum", Arial, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.8;
@@ -38,12 +43,12 @@ a:hover, a:active, a:focus {
 
 p {
   margin-bottom: 1.5em;
-  font-family: 'Jeju Myeongjo', serif;;
+  font-family: 'GowunDodum', serif;;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
-  font-family: "ArnoPro Display", cursive;
+  font-family: "GowunDodum", cursive;
   font-weight: 400;
 }
 
@@ -110,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 #qbootstrap-header #navbar li a {
-  font-family: "ArnoPro Display", Arial, sans-serif;
+  font-family: "GowunDodum", Arial, sans-serif;
   color: rgba(255, 255, 255, 0.5);
   position: relative;
 }
@@ -166,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
   padding-left: 0;
   color: #fff;
-  font-family: "ArnoPro Display", cursive;
+  font-family: "GowunDodum", cursive;
 }
 #qbootstrap-header.navbar-fixed-top {
   position: fixed !important;
@@ -370,7 +375,7 @@ h1, h2, h3, h4, h5, h6 {
 .qbootstrap-cover .display-tc .holder,
 .video-hero .display-tc .holder {
   color: #fff;
-  font-family: "ArnoPro Display", Arial, sans-serif;
+  font-family: "GowunDodum", Arial, sans-serif;
   font-size: 18px;
   /*text-transform: uppercase;*/
   letter-spacing: 10px;
@@ -426,7 +431,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   font-size: 80px;
   margin-bottom: 20px;
-  font-family: 'Jeju Myeongjo', serif;
+  font-family: 'GowunDodum', serif;
   font-weight: 100 !important;
 }
 .qbootstrap-cover .display-tc h2 strong,
@@ -533,7 +538,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner .holder {
   color: #fff;
-  font-family: "ArnoPro Display", Arial, sans-serif;
+  font-family: "GowunDodum", Arial, sans-serif;
   font-size: 18px;
   /*text-transform: uppercase;*/
   letter-spacing: 10px;
@@ -578,7 +583,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 40px;
-  font-family: "ArnoPro Display", Arial, sans-serif;
+  font-family: "GowunDodum", Arial, sans-serif;
 }
 #qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner h2 a {
   color: rgba(255, 255, 255, 0.5);
@@ -618,7 +623,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #qbootstrap-couple h3 {
   font-size: 34px;
-  font-family: "Clicker Script", cursive;
+  font-family: "GowunDodum", cursive;
   color: #6f584a;
 }
 @media screen and (max-width: 768px) {
@@ -673,7 +678,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #qbootstrap-countdown .section-heading .datewed {
-  font-family: 'Jeju Myeongjo', serif;;
+  font-family: 'GowunDodum', serif;;
   font-size: 16px;
   color: rgba(255, 255, 255, 0.7);
 }
@@ -703,12 +708,12 @@ h1, h2, h3, h4, h5, h6 {
 #qbootstrap-countdown .countdown span {
   margin: 0 20px;
   display: inline-block;
-  font-family: "Clicker Script", cursive;
+  font-family: "GowunDodum", cursive;
 }
 #qbootstrap-countdown .countdown small {
   display: block;
   font-size: 7px;
-  font-family: "ArnoPro Display", Arial, sans-serif;
+  font-family: "GowunDodum", Arial, sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -1086,7 +1091,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding: 0;
   font-size: 30px;
-  font-family: "Clicker Script", cursive;
+  font-family: "GowunDodum", cursive;
   font-style: italic;
 }
 #qbootstrap-testimonials .arrow-thumb {
@@ -1130,7 +1135,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .groom-men h3 {
-  font-family: "Clicker Script", cursive;
+  font-family: "GowunDodum", cursive;
   font-size: 28px;
 }
 
@@ -1725,18 +1730,14 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
 }
 
-.kakao-pay-button {
-  background-color: #fae100;
-  border-radius: 4px 4px 4px 4px;
-  padding-bottom: 2px;
-  padding-top: 2px;
+.accordion-button.collapsed {
+  background: rgba(245, 245, 245, 1);
 }
-.cursor-pointer {
-  cursor: pointer!important;
+.accordion-button:not(.collapsed) {
+  color: black;
+  background: rgba(245, 245, 245, 1);
 }
-.content-center {
-  align-content: center;
-}
-.column {
-  flex-direction: column;
+.accordion-header-text{
+  width: 100%;
+  text-align: center
 }
