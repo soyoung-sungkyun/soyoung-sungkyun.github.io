@@ -1741,3 +1741,61 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   text-align: center
 }
+
+.wedding-events .desc-notice {
+  padding: 40px;
+  border: 2px solid rgba(0, 0, 0, 0.05);
+  position: relative;
+  z-index: 0;
+}
+.wedding-events .desc-notice:after {
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  content: '';
+  /*background: #f7f7f7;*/
+  z-index: -1;
+}
+.wedding-events .desc-notice h3 {
+  font-size: 40px;
+  color: #6f584a;
+  display: block;
+  margin-bottom: 40px;
+}
+.wedding-events .desc-notice .date {
+  display: block;
+}
+.wedding-events .desc-notice .date span {
+  display: block;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.wedding-events .desc-notice .icon-tip {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+.wedding-events .desc-notice .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 60%;
+}
+.wedding-events .desc-notice .icon i {
+  color: #fff;
+  padding: 15px;
+  /*background: #FF847C;*/
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+@media screen and (max-width: 768px) {
+  .wedding-events .desc-notice .icon {
+    position: relative;
+    margin: 0;
+  }
+}
