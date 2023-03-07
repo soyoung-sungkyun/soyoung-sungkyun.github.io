@@ -54,6 +54,17 @@ Calendar Styling */
 }
 
 .calendar .days li .event {
+    /*cursor: pointer;*/
+    /*background-color: #f67280;*/
+    /*color: #fff;*/
+
+    /*display: grid;*/
+    /*cursor: pointer;*/
+    /*margin: px 0px;*/
+    /*padding: 8px 0px;*/
+    /*border-radius: 30px;*/
+    /*margin: auto;*/
+
     font-size: 0.75rem;
     padding: 0.4rem;
     color: white;

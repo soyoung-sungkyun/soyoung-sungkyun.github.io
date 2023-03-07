@@ -326,7 +326,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
   .qbootstrap-cover,
   .qbootstrap-hero {
-    height: 500px;
+    height: 400px;
   }
 }
 
@@ -364,7 +364,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
   .qbootstrap-cover .display-t,
   .video-hero .display-t {
-    height: 500px;
+    height: 400px;
   }
 }
 .qbootstrap-cover .display-tc,
