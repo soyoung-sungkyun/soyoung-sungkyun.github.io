@@ -1743,7 +1743,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .wedding-events .desc-notice {
-  padding: 30px;
+  padding: 30px 30px 20px 30px;
   border: 2px solid rgba(0, 0, 0, 0.05);
   position: relative;
   z-index: 0;
