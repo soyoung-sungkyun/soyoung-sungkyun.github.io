@@ -326,7 +326,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
   .qbootstrap-cover,
   .qbootstrap-hero {
-    height: 500px;
+    height: 420px;
   }
 }
 
@@ -364,7 +364,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
   .qbootstrap-cover .display-t,
   .video-hero .display-t {
-    height: 400px;
+    height: 420px;
   }
 }
 .qbootstrap-cover .display-tc,
@@ -1152,7 +1152,7 @@ h1, h2, h3, h4, h5, h6 {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 500px;
+  height: 420px;
 }
 .wedding-events .desc {
   padding: 40px;
