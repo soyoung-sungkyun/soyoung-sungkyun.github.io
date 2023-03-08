@@ -291,7 +291,7 @@
 		burgerMenu();
 		testimonialCarousel();
 		sliderMain();
-		clickMenu();
+		// clickMenu();
 		parallax();
 		// windowScroll();
 		navigationSection();
