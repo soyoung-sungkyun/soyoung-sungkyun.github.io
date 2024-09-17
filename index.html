@@ -95,27 +95,27 @@
 	</div>
 </div>
 <!-- Main photo -->
-<div class="container">
-	<div class="qbootstrap-hero" data-section="home">
-		<div class="qbootstrap-overlay"></div>
-		<div class="qbootstrap-cover text-center" data-stellar-background-ratio="1" style="background-image: url(https://cdn.jsdelivr.net/gh/soyoung-sungkyun/soyoung-sungkyun.github.io@master/images/photo/port_hugging.jpeg);">
-<!--			<div class="display-t">-->
-<!--				<div class="display-tc" style="vertical-align: bottom;">-->
-<!--					<div class="container">-->
-<!--						<div class="col-md-12">-->
-<!--							<div class="animate-box svg-sm colored">-->
-<!--								<h2 style="font-size: 18px; font-family: ArnoPro Display, Arial, sans-serif;">-->
-<!--									Wedding Invitation<br/>-->
-<!--									Finally, We become as one.-->
-<!--								</h2>-->
-<!--							</div>-->
-<!--						</div>-->
-<!--					</div>-->
-<!--				</div>-->
-<!--			</div>-->
-		</div>
-	</div>
+<div class="container" id="imageContainer" style="position: relative; overflow: hidden;">
+	<img id="backgroundImage" src="https://cdn.jsdelivr.net/gh/soyoung-sungkyun/soyoung-sungkyun.github.io@master/images/photo/port_hugging.jpeg" alt="background" style="width: 100%; display: block;">
 </div>
+
+<script>
+    // 이미지가 로드되면 컨테이너 크기를 이미지 크기에 맞춤
+    window.onload = function() {
+        var img = document.getElementById('backgroundImage');
+        var container = document.getElementById('imageContainer');
+        
+        // 이미지의 실제 너비와 높이를 가져옴
+        img.onload = function() {
+            var imgWidth = img.naturalWidth;
+            var imgHeight = img.naturalHeight;
+            
+            // 컨테이너에 이미지 크기 적용
+            container.style.width = imgWidth + 'px';
+            container.style.height = imgHeight + 'px';
+        };
+    };
+</script>
 
 <div class="container">
 	<div class="row mt-3">
