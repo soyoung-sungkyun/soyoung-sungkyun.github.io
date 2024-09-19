@@ -752,9 +752,8 @@
 
 		marker.setMap(map);
 
-		var iwContent = '<a style="padding: 1px; font:14px/2 sans-serif; text-decoration: underline;" target="_blank" href="' + positions[i].link +'"><strong>' + positions[i].title  + '</strong></a>',
-			iwPosition = positions[i].latlng
-
+		var iwContent = '<a style="padding: 5px; font:14px/2 sans-serif; text-decoration: underline; white-space: nowrap; display: inline-block;" target="_blank" href="' + positions[i].link + '"><strong>' + positions[i].title + '</strong></a>',
+    iwPosition = positions[i].latlng;
 
 		var infowindow = new daum.maps.InfoWindow({
 		  position: iwPosition, // 마커를 표시할 위치
